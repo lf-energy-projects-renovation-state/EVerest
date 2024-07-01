@@ -227,7 +227,7 @@ jobs:
         name: docs-html
         path: docs-html
     - name: Checkout ${{ env.GITHUB_PAGES_REPO }}
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         repository: ${{ env.GITHUB_PAGES_REPO }}
         path: ${{ env.GITHUB_PAGES_REPO }}
